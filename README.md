@@ -53,22 +53,20 @@ Built using **Kotlin**, **MVVM**, **Room DB**, **Coroutines/Flow**, and **Materi
 MoneyFlow/
 │
 ├── data/
-│   ├── dao/                # ExpenseDao, GoalDao, SavingRecordDao
-│   ├── database/           # Room database setup
-│   ├── entities/           # Expense, SavingGoal, SavingRecord
-│   └── repository/         # ExpenseRepository, GoalRepository
+│   ├── dao/                
+│   ├── database/           
+│   ├── entities/          
+│   └── repository/         
 │
-├── domain.usecases/        # Use cases (optional)
+├── 
 │
 ├── ui/
-│   ├── dashboard/          # Dashboard + Insights
-│   ├── expenses/           # Expense list, adapter
-│   ├── goals/              # Goal list, detail, add goal, add savings
-│   ├── intro/              # Intro/Splash screens
-│   └── base/               # Base classes
-│
-├── utils/                  # Helpers, extensions
-│
+│   ├── dashboard/       
+│   ├── expenses/          
+│   ├── goals/             
+│   ├── intro/             
+│   └── base/              
+├── utils/                 
 └── MoneyFlowApplication.kt
 ```
 
