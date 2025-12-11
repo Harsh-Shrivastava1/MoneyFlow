@@ -1,40 +1,40 @@
-# ⭐ MoneyFlow – Personal Finance & Savings Tracker  
+#  MoneyFlow – Personal Finance & Savings Tracker  
 A modern Android app to track expenses, manage saving goals, visualize spending insights, and maintain better financial control.  
 Built using **Kotlin**, **MVVM**, **Room DB**, **Coroutines/Flow**, and **Material 3 UI**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 📌 Expense Tracking
+###  Expense Tracking
 - Add, edit, and delete expenses  
 - Categorize expenses (Food, Travel, Shopping, etc.)  
 - Automatic total expense calculation  
 - Clean, modern Material 3 card layout  
 
-### 💰 Saving Goals
+### Saving Goals
 - Create saving goals with target amount  
 - Track real-time progress with circular indicators  
 - Add savings logs  
 - Detailed analytics view for each goal  
 
-### 🧠 Smart Insights (Dashboard)
+### Smart Insights (Dashboard)
 - Detects your highest spending category  
 - Insights update automatically using Kotlin Flow  
 - Motivational savings feedback  
 
-### 🎨 Beautiful Material 3 UI
+### Beautiful Material 3 UI
 - Premium bright theme  
 - Smooth transitions & animations  
 - Clean layout with guiding empty states  
 
-### ⚙️ Offline First
+### Offline First
 - Uses **Room Database**  
 - All data is stored securely on the device  
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technologies |
 |------|--------------|
@@ -47,7 +47,7 @@ Built using **Kotlin**, **MVVM**, **Room DB**, **Coroutines/Flow**, and **Materi
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 MoneyFlow/
@@ -72,25 +72,25 @@ MoneyFlow/
 
 
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/your-username/MoneyFlow.git
 cd MoneyFlow
 ```
 
-### 2️⃣ Open in Android Studio  
+###  Open in Android Studio  
 - Open → select project folder  
 - Wait for Gradle to sync  
 
-### 3️⃣ Run App  
+### Run App  
 - Connect a device or launch emulator  
 - Press **Run ▶**
 
 ---
 
-## 🧪 Module Explanations
+##  Module Explanations
 
 ### ✔ Expense Module
 - Stores expenses with category & timestamp  
@@ -109,7 +109,7 @@ progress = (savedAmount / targetAmount) * 100
 
 ---
 
-## ✨ Why MoneyFlow?
+##  Why MoneyFlow?
 
 - Lightweight  
 - Fast UI  
@@ -119,7 +119,7 @@ progress = (savedAmount / targetAmount) * 100
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 ```
 1. Fork the repository  
